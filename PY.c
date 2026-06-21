@@ -419,7 +419,7 @@ void APLICAR_EXAMEN(LISTA_EXAMEN *LISTA) {
             }
         }
         else if (TECLA >= '1' && TECLA <= '4') {
-            ACTUAL->RESPUESTA_USUARIO = TECLA - '0';   // convierte el char '1'-'4' a int 1-4
+            ACTUAL->RESPUESTA_USUARIO = TECLA - '0';
         }
         else if (TECLA == 'f' || TECLA == 'F') {
             TERMINAR = 1;
