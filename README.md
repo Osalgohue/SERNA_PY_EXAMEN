@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 # SERNA_PY_EXAMEN
 
 # Generador de Exámenes
@@ -119,3 +120,13 @@ Se pueden incluir varios reactivos seguidos en el mismo archivo.
 - El menú principal no valida que la entrada sea numérica — si se escribe una letra en vez de un número, puede comportarse de forma inesperada.
 - Los nombres de archivo no pueden contener espacios, ya que se leen con `scanf("%s", ...)`.
 - La función de listar archivos disponibles (`LISTAR_EXAMENES_DISPONIBLES`) usa `dirent.h` en Linux/macOS y la API de Windows (`FindFirstFile`/`FindNextFile`) en Windows, seleccionadas en tiempo de compilación con `#ifdef _WIN32`.
+=======
+# SERNA_PY_EXAMEN_Documentacion
+
+Este codigo fue escrito en Linux distro Debian 13.5 pero esta hecho para funcionar en Windows
+
+/*================ listar examenes funcional en windows y linux ======================*/
+
+Este apartado esta hecho para poder soportar Windows y Linux
+Para encotrar archivos en los 2 tipos de sistemas operativos 
+>>>>>>> Stashed changes
